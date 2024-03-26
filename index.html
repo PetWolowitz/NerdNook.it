@@ -1,0 +1,291 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>NerdNook.it</title>
+    <!-- swiper css cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <!-- cdn aos -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+
+    <!-- FONTAWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- MY CSS -->
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+
+
+<body class="bg-primaryCus">
+    <main>
+        <!-- INIZIO NAVBAR -->
+        <nav class="navbar navbar-expand-lg bg-greenCus fixed-bottom " id="mainNavbar">
+            <div class="container-fluid">
+                <!-- primo logo -->
+                <a class="navbar-brand  " href="#" id="logoViola">
+                    <img class="myLogo" src="./media/logoViola.png" alt="">
+                </a>
+                <!-- secondo logo -->
+                <a class="navbar-brand d-none" href="#" id="logoVerde">
+                    <img class="myLogo" src="./media/logoVerde.png" alt="">
+                </a>
+                <button class="bg-greenCus bordoIcona" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fa-regular fa-hand-point-up fa-2x text-accent" id="fingerIcon"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-5 me-4 fs-1  ulCus">
+                        <li class="nav-item">
+                            <a class="nav-link text-blackCus " aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-blackCus " href="./annunci.html">Annunci</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link  text-blackCus aCustom " href="#">Chi siamo?</a>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </nav>
+        <!-- FINE NAVBAR -->
+
+        <!-- scroller -->
+        <a href="#" id="scroller">
+            <i class="fa-regular fa-square-caret-up fa-2x"></i>
+        </a>
+
+        <!-- INIZIO HEADER -->
+        <header class="container-fluid pt-3 ">
+            <div class="row vh-100  ">
+                <div class="col-12 d-flex align-items-center justify-content-center p-0 header1">
+                    <h1 class="animated bounceInDown pb-3">NerdNooK.it</h1>
+                </div>
+            </div>
+
+        </header>
+        <!-- FINE HEADER -->
+        <!-- inzio sezione aos -->
+        <section class="container my-5 ">
+            <div class="row">
+                <div class="col-12 col-lg-6 d-flex justify-content-center align-items-center">
+                    <img src="./media/comics-por-toda-la-ciudad.jpg" id="image" alt="fumetti" data-aos="fade-right"
+                        data-aos-offset="200" data-aos-easing="ease-in-sine">
+                </div>
+                <div class="col-12 col-lg-6 text-center d-flex flex-column justify-content-center ">
+                    <h2 id="h2Obs" class="display-3 py-3 text-secondaryCus" data-aos="zoom-in-up" data-aos-offset="200"
+                        data-aos-easing="ease-in-sine">Qualche numero</h2>
+
+                    <p class="py-3  text-blackCus fw-semibold shadow pCus "><span
+                            class="d-block display-3 incrementNumber" id="firstSpan">0</span>Clienti soddisfatti </p>
+
+                    <p class="py-3  text-blackCus fw-semibold shadow pCus"><span
+                            class="d-block display-3 incrementNumber" id="secondSpan">0</span>Prodotti venduti</p>
+
+                    <p class="py-3  text-blackCus fw-semibold shadow  pCus "><span
+                            class="d-block display-3 incrementNumber" id="thirdSpan">0</span>Recensioni</p>
+                </div>
+            </div>
+        </section>
+        <!-- FINE SEZIONE AOS -->
+    </main>
+    <!-- INZIO SEZIONE SWIPER -->
+    <section class="container my-5 ">
+        <div class="row justify-content-center ">
+            <div class="col-12 col-lg-8">
+
+                <h2 class="text-center text-secondaryCus  display-4 mt-4  ">Recensioni</h2>
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FINE SEZIONE SWIPER -->
+
+    <!-- inizio sezione mouse enter -->
+    <section class="container-fluid py-5  ">
+
+        <div class="row justify-content-around  my-5 bg-secondaryCus">
+
+            <h2 class="text-center text-secondaryCus">Swift and sure</h2>
+
+
+            <div class="col-12 col-lg-3 col-custom my-2  ">
+                <i class="fa-solid fa-truck fa-3x text-secondaryCus"></i>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab suscipit tempore, doloribus possimus sed
+                    at</p>
+            </div>
+
+            <div class="col-12 col-lg-3 col-custom my-2 ">
+                <i class="fa-solid fa-truck fa-3x text-secondaryCus"></i>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab suscipit tempore, doloribus possimus sed
+                    at</p>
+            </div>
+
+            <div class="col-12 col-lg-3 col-custom my-2 ">
+                <i class="fa-solid fa-truck fa-3x text-secondaryCus"></i>
+                <h3>Lorem ipsum</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ab suscipit tempore, doloribus possimus sed
+                    at</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- INIZIO FOOTER -->
+    <footer>
+        <div class="container-fluid bg-greenCus">
+            <footer class="py-5">
+                <div class="row">
+
+                    <div class="col-6 col-md-2 mb-3">
+                        <h5>Section</h5>
+                        <ul class="nav flex-column">
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary pCus">Home</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary pCus">Features</a></li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary pCus">Pricing</a></li>
+                            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary pCus">FAQs</a>
+                            </li>
+                            <li class="nav-item mb-2"><a href="#"
+                                    class="nav-link p-0 text-body-secondary pCus">About</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-md-5 offset-md-1 mb-3">
+                        <form>
+                            <h5>Subscribe to our newsletter</h5>
+                            <p class="pCus">Monthly digest of what's new and exciting from us.</p>
+                            <div class="d-flex flex-column flex-sm-row w-100 gap-2">
+                                <label for="newsletter1" class="visually-hidden ">Email address</label>
+                                <input id="newsletter1" type="text" class="form-control" placeholder="Email address">
+                                <button class="btn btn-primary pCus" type="button">Subscribe</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="d-flex flex-column flex-sm-row justify-content-md-end  py-4 my-4 border-top">
+                    <img class="myLogo pb-5" src="./media/logoViola.png" alt="">
+                    <p class="pCus pt-4">© 2024 PurpleCoast Inc. All rights reserved.</p>
+                    <ul class="list-unstyled d-flex">
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#twitter"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#instagram"></use>
+                                </svg></a></li>
+                        <li class="ms-3"><a class="link-body-emphasis" href="#"><svg class="bi" width="24" height="24">
+                                    <use xlink:href="#facebook"></use>
+                                </svg></a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <!-- FINE FOOTER -->
+
+
+
+
+        <!-- JS bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+
+        <!-- MY JS -->
+        <script src="./main.js"></script>
+        <!-- inizializzazione aos  -->
+        <!-- cdn js swiper -->
+        <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+        <!-- js aos-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <script>
+            AOS.init();
+        </script>
+        <!-- JS INTERNO -->
+        <script>
+
+            let advices = [
+                { nome: 'Valerio', recensione: "Sito molto bello mehh" },
+                { nome: 'Viola Piccola', recensione: "Babbo babbluo babbluo" },
+                { nome: 'Irene Bella', recensione: 'Bravo, simpatico ma con poca pazienza' },
+                { nome: 'Leo', recensione: 'Bau Bau Bau' },
+            ];
+
+            // catturiamo il papa cardSwiper dell card
+
+            let swiperWrapper = document.querySelector('.swiper-wrapper');
+
+            advices.forEach((advice) => {
+
+                let div = document.createElement('div');
+
+                div.classList.add('swiper-slide', 'd-flex', 'align-items-center', 'justify-content-center', 'manga');
+                div.innerHTML = `
+                            <div class="cardRec"> 
+                                <p class="h3 pManga">${advice.nome}</p>
+                                <p class="pCus2 text-center"> ${advice.recensione}</p>
+                            </div> 
+                            `;
+
+                swiperWrapper.appendChild(div);
+            });
+
+
+            const swiper = new Swiper('.swiper', {
+                // Optional parameters
+                direction: 'horizontal',
+                loop: true,
+
+                effect: "cube",
+                grabCursor: true,
+                cubeEffect: {
+                    shadow: false,
+                    slideShadows: false,
+
+                },
+
+                // // autoplay
+                // autoplay: {
+                //     delay: 2500,
+                //     disableOnInteraction: false,
+                // },
+                // If we need pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                },
+
+            });
+        </script>
+</body>
+
+</html>

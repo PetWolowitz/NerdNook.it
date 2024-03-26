@@ -1,0 +1,345 @@
+[
+    {
+        "id":1,
+        "name": "Naruto",
+        "category": "Manga",
+        "price": "28.90",
+        "url" : "./media/naruto.jpg"
+    },
+
+    {
+        "id": 2,
+        "name": "One Piece",
+        "category": "Manga",
+        "price": "35.75",
+        "url" : "./media/onePiece.jpg"
+    },
+
+    {
+        "id": 3,
+        "name": "Dragon Ball",
+        "category": "Manga",
+        "price": "20.15",
+        "url" : "./media/dragonBall.jpg"
+    },
+
+    {
+        "id": 4,
+        "name": "Hunter X Hunter",
+        "category": "Manga",
+        "price": "30.00",
+        "url" : "./media/hunter.jpg"
+    },
+
+    {
+        "id": 5,
+        "name": "Demon Slayer",
+        "category": "Manga",
+        "price": "65.25",
+        "url" : "./media/Demon_Slayer.jpg"
+    },
+
+    {
+        "id": 6,
+        "name": "The Avenger",
+        "category": "Marvel Comics",
+        "price":"15.99",
+        "url" : "./media/avenger.jpg"
+
+    },
+
+    {
+        "id": 7,
+        "name": "Batman",
+        "category": "Dc Comics",
+        "price":"30.45",
+        "url" : "./media/BATMAN.jpg"
+
+    },
+
+   
+
+    {
+        "id": 9,
+        "name": "Suicide Squad",
+        "category": "Dc Comics",
+        "price": "23.42",
+        "url" : "./media/suicideSquad.jpg"
+    },
+
+    {
+        "id": 10,
+        "name": "Cerberus",
+        "category": "Dc Comics",
+        "price": "25.02",
+        "url" : "./media/cerberus.jpg"
+    },
+
+    {
+        "id": 11,
+        "name": "Thor",
+        "category": "Marvel Comics",
+        "price": "30.12",
+        "url" : "./media/thor.jpg"
+
+    },
+
+    {
+        "id": 12,
+        "name": "Slam dunk",
+        "category": "Manga",
+        "price": "55.54",
+        "url" : "./media/schiacciata.jpg"
+    },
+
+    {
+        "id": 13,
+        "name": "Full Metal Alchemist",
+        "category": "Manga",
+        "price": "35.23",
+        "url" : "./media/fullMetal.jpg"
+    },
+
+    {
+        "id": 14,
+        "name": "Haikyu!!",
+        "category": "Manga",
+        "price": "75.65",
+        "url" : "./media/haiky.jpg"
+    },
+
+    {
+        "id": 15,
+        "name": "Gintama",
+        "category": "Manga",
+        "price": "22.45",
+        "url" : "./media/gintama.jpg"
+    },
+
+    {
+        "id": 16,
+        "name": "Capitan America",
+        "category": "Marvel Comics",
+        "price": "30.62",
+        "url" : "./media/capitanamerica.jpg"
+    },
+
+    {
+        "id": 17,
+        "name": "Loki",
+        "category": "Marvel Comics",
+        "price": "20.65",
+        "url" : "./media/loki.jpg"
+    },
+
+    {
+        "id": 18,
+        "name": "X-Men- The Dark Phoenix Saga",
+        "category": "Marvel Comics",
+        "price": "88.13",
+        "url" : "./media/xmen2.jpg"
+    },
+    
+    {
+        "id": 19,
+        "name": "The Lord of the Rings Figures of Fandom ",
+        "category": "Action figures",
+        "price": "90.64",
+        "url" : "./media/lordcattivo.jpg"
+    },
+
+    {
+        "id": 21,
+        "name": "The Hobbit Trilogy Statue Smaug the Magnificent",
+        "category": "Action figures",
+        "price": "100.04",
+        "url" : "./media/smaug.jpg"
+    },
+
+    {
+        "id": 22,
+        "name": "The Hobbit Trilogy Statue Radagast the Brown",
+        "category": "Action figures",
+        "price": "120.63",
+        "url" : "./media/radagast.jpg"
+    },
+
+    {
+        "id": 23,
+        "name": "The Lord of the Rings Statue 1/6 Ringwraith of Mordor  ",
+        "category": "Action figures",
+        "price": "140.43",
+        "url" : "./media/mordor.jpg"
+    },
+
+    {
+        "id": 24,
+        "name": "Charizard",
+        "category": "Pokemon card",
+        "price": "9.93",
+        "url" : "./media/charizard.jpg"
+        
+    },
+
+    {
+        "id": 25,
+        "name": "Salamence",
+        "category": "Pokemon card",
+        "price": "120.93",
+        "url" : "./media/salamence.jpg"
+    },
+    
+    {
+        "id": 26,
+        "name": "Tyranitar",
+        "category": "Pokemon card",
+        "price": "256.42",
+        "url" : "./media/tyranitar.jpg"
+    },
+
+    {
+        "id": 27,
+        "name": "Pikachu",
+        "category": "Pokemon card",
+        "price": "43.43",
+        "url" : "./media/pikachu.jpg"
+    },
+
+    {
+        "id": 28,
+        "name": "Blastoise",
+        "category": "Pokemon card",
+        "price": "22.63",
+        "url" : "./media/blastoise.jpg"
+    },
+
+    {
+        "id": 29,
+        "name": "Yu-Gi-Oh! PVC Statue Sky Striker Ace of spades",
+        "category": "Action figures",
+        "price": "55.55",
+        "url" : "./media/gigioh.jpg"
+    },
+
+    {
+        "id": 30,
+        "name": "X-Men Marvel Animated Series Bust 1/7 Morph",
+        "category": "Action figures",
+        "price": "210.12",
+        "url" : "./media/xmen.jpg"
+
+    },
+
+    {
+        "id": 31,
+        "name": "Detective Conan",
+        "category": "Manga",
+        "price": "55.62",
+        "url" : "./media/conan.jpg"
+    },
+
+    {
+        "id": 32,
+        "name": "L'attacco dei Giganti",
+        "category": "Manga",
+        "price": "31.91",
+        "url" : "./media/attaccoGiganti.jpg"
+    },
+
+    {
+        "id": 33,
+        "name": "Lanterna Verde",
+        "category": "Dc Comics",
+        "price": "13.41",
+        "url" : "./media/verde.jpg"
+    },
+
+    {
+        "id": 34,
+        "name": "Doraemon",
+        "category": "Manga",
+        "price": "25.40",
+        "url" : "./media/doraemon.jpg"
+    },
+
+    {
+        "id": 35,
+        "name": "My Hero Academy",
+        "category": "Manga",
+        "price": "21.54",
+        "url" : "./media/hero.jpg"
+    },
+
+    {
+        "id": 37,
+        "name": "Boruto Next Generations",
+        "category": "Manga",
+        "price": "24.33",
+        "url" : "./media/boruto.jpg"
+    },
+
+    {
+        "id": 38,
+        "name": "Bleach",
+        "category": "Manga",
+        "price": "42.66",
+        "url" : "./media/bleach.jpg"
+    },
+
+    {
+        "id": 39,
+        "name": "Wolverine",
+        "category": "Marvel Comics",
+        "price": "14.43",
+        "url" : "./media/wolverine.jpg"
+    },
+
+    {
+        "id": 40,
+        "name": "She Hulk",
+        "category": "Marvel Comics",
+        "price": "15.65",
+        "url" : "./media/sheHulk.jpg"
+    },
+
+    {
+        "id": 41,
+        "name": "X-Men",
+        "category": "Marvel Comics",
+        "price": "23.37",
+        "url" : "./media/xmen.jpg"
+    },
+
+    {
+        "id": 42,
+        "name": "Wonder woman",
+        "category": "Marvel Comics",
+        "price": "13.73",
+        "url" : "./media/wwoman.jpg"
+    },
+
+    {
+        "id": 43,
+        "name": "Jujutsu Kaisen",
+        "category": "Manga",
+        "price": "52.03",
+        "url" : "./media/kaisen.jpg"
+    },
+
+    {
+        "id": 44,
+        "name": "Banana Fish",
+        "category": "Manga",
+        "price": "20.12",
+        "url" : "./media/fishb.jpg"
+    },
+
+    {
+        "id": 45,
+        "name": " Lady Oscar - Le rose di Versailles",
+        "category": "Manga",
+        "price": "55.54",
+        "url" : "./media/ladyOscar.jpg"
+    }
+]
+    

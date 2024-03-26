@@ -1,0 +1,380 @@
+/* SETTINGS GENERALI */
+
+
+
+:root {
+    --primaryCus: #f8f8f8;
+    --secondaryCus: #BF0449;
+    --accent: #A6128D;
+    --blackCus: #242424;
+    --greenCus: #C4F2DD;
+    --accent2: rgba(166, 18, 141, 0.206);
+    --orangeCus: #f2770cea;
+
+}
+
+@font-face {
+    font-family: manga;
+    src: url(./media/Komigo3D-Regular.ttf);
+}
+
+@font-face {
+    font-family: speak;
+    src: url(./media/manga_speak.ttf);
+}
+
+@font-face {
+    font-family: naruto;
+    src: url(./media/naruto.otf);
+}
+
+h1 {
+    font-family: manga;
+
+}
+
+h5 {
+    font-family: manga;
+    font-size: 25px;
+    font-style: oblique;
+    color: var(--blackCus);
+    font-weight: bold;
+}
+
+h2, h3, h4 {
+    font-family: naruto;
+}
+
+
+
+/* colori testi custom */
+.text-primaryCus {
+    color: #f8f8f8;
+}
+
+.text-secondaryCus {
+    color: #BF0449;
+}
+
+.text-accent {
+    color: #A6128D;
+}
+
+.text-blackCus {
+    color: var(--blackCus);
+}
+
+.text-greenCus {
+    color: var(--greenCus);
+}
+
+.text-greenCus {
+    color: var(--orangeCus);
+}
+
+/* bg-Custom */
+
+.bg-primaryCus {
+    background-color: var(--primary);
+}
+
+.bg-secondaryCus {
+    background-color: var(--secondary);
+}
+
+.bg-accent {
+    background-color: var(--accent);
+}
+
+.bg-blackCus {
+    background-color: var(--blackCus);
+}
+
+.bg-greenCus {
+    background-color: var(--greenCus);
+}
+
+
+/* border custom */
+.border-primary {
+    border: 2px solid var(--primary);
+}
+
+.border-secondary {
+    border: 2px solid var(--secondary);
+}
+
+.border-accent {
+    border: 2px solid var(--accent);
+}
+
+.border-blackCus {
+    border: 2px solid var(--blackCus);
+}
+
+.border-greenCus {
+    border: 2px solid var(--greenCus);
+}
+
+
+
+
+
+/* HEADER */
+.header1 {
+    background-image: url(./media/header1.jpg);
+    background-size: cover;
+    background-position: center;
+
+
+}
+
+
+
+.header2 {
+    background-image: url(./media/header2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+body {
+    
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+
+h1 {
+    font-family: manga;
+    font-size: 85px;
+    color: var(--accent);
+
+    filter: drop-shadow(2px 2px 4px var(--blackCus));
+}
+
+
+.h1Annunci {
+    font-family: naruto;
+    font-size: 100px;
+    color: var(--primaryCus);
+    text-shadow: 5px 5px var(--blackCus);
+}
+
+.h2Annunci {
+    font-family: manga;
+    font-size: 70px;
+    color: var(--secondaryCus);
+
+
+}
+
+
+.h2Filtri {
+    font-family: manga;
+    font-size: 45px;
+    color: var(--secondaryCus);
+
+}
+
+
+
+/* FINE HEADER */
+
+/* NAVBAR */
+#fingerIcon {
+    transition: 0.4s;
+}
+
+.bordoIcona {
+    border: 0px;
+
+}
+
+.bordoIcona:active {
+    border: 0px;
+}
+
+*/ #mainNavbar {
+    transition: 0.4s;
+    ;
+}
+
+
+.myLogo {
+
+    width: 65px;
+}
+
+
+.ulCus {
+
+    font-family: manga;
+    /* text-shadow: 1px 1px var(--blackCus); */
+    font-weight: normal;
+    text-shadow: 1px 1px var(--blackCus);
+}
+
+.ulCusAnnunci {
+
+    font-family: naruto;
+    /* text-shadow: 1px 1px var(--blackCus); */
+    font-weight: normal;
+    text-shadow: 1px 1px var(--blackCus);
+
+}
+
+/* FINE NAVBAR */
+
+
+
+/* SEZIONE AOS */
+
+#image {
+    border-radius: 10px;
+    filter: drop-shadow(3px 3px 10px var(--blackCus));
+    width: 100%;
+
+}
+
+
+/* seazione h2 */
+.pCus {
+    font-family: speak;
+    font-size: 20px;
+
+
+}
+
+.pCus2 {
+    font-family: speak;
+    font-size: 20px;
+    text-shadow: #2424245f 1px 1px;
+
+
+}
+
+.pManga {
+    font-family: manga;
+    font-weight: 500;
+    font-size: 40px;
+    color: #A6128D;
+}
+
+/* sezione swiper */
+
+.swiper {
+    /* width: 600px; */
+    height: 300px;
+}
+
+.cardRec {
+    width: 400px;
+    height: 300px;
+    border: 2px solid var(--blackCus);
+    border-radius: 10px;
+    background-color: var(--orangeCus);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media screen and (max-width: 900px) {
+    .cardRec {
+        width: 300px;
+        height: 200px;
+        border: 2px solid var(--blackCus);
+        border-radius: 10px;
+        background-color: var(--orangeCus);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    h1 {
+        font-size: 60px;
+    }
+
+    .h1Annunci {
+        font-size: 50px;
+    }
+    .h2Annunci {
+        font-size: 40px;
+    }
+    .h2Filtri {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .bordoIcona {
+        display: none;
+    }
+}
+
+
+/* mouse enter */
+
+.col-custom {
+    border: 3px solid var(--secondaryCus);
+    color: var(--blackCus);
+    padding: 20px;
+    border-radius: 20px;
+}
+
+
+/* scroller */
+#scroller {
+    position: fixed;
+    bottom: 30%;
+    right: 10%;
+    z-index: 1;
+    color: var(--accent);
+
+}
+
+.fa-truck {
+    transition: 1s;
+}
+
+
+/* annunci */
+
+.announcement-card{
+    min-height: 300px;
+    width: 100%;
+    border: 2px solid var(--accent);
+    
+    border-radius: 20px;
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.h2Card{
+    font-family: naruto;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-head{
+    min-height: 50px;
+    text-align: center;
+}
+
+.img-card-custom{
+    height: 160px;
+    border-radius: 20%;
+}
+
+.classe{
+    margin-bottom: 200px;
+}
